@@ -19,14 +19,13 @@ We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
 
-
 1. [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) and create your branch from `master`.
 2. If you've added code that should be tested, add tests.
 3. Ensure the test suite passes.
 4. Make sure your code lints.
 5. Issue that pull request!
 
-### Report bugs using Github's [issues](https://github.com/Be-Secure/Be-Secure/issues)
+### Reporting bugs using Github's [issues](https://github.com/Be-Secure/Be-Secure/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/Be-Secure/Be-Secure/issues); it's that easy!
 
 
@@ -43,21 +42,45 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 People *love* thorough bug reports. 
 
 
+### Developers Corner
+
+The developers are welcome to contribute to create new be-secure environments and playbooks as well as contribute to other repositories.
+
+#### Adding a new environemnt to Be-Secure env repo
+1. Fork the [Be-Secure env repo](https://github.com/Be-Secure/besecure-ce-env-repo) to the developers own namepsace.
+
+2. Git clone the developers own forked repo's develop branch to their local system.
+
+3. Follow the Steps mentioned in [Environment's Developer Guide](https://github.com/Be-Secure/besecure-ce-env-repo/blob/master/developer-guide.md)
+
+4. Once changes are done and tested in local repository, push changes into your own repo at github.
+
+5. Raise a PR to get the changes merged to *develop* branch of [Be-Secure environments](https://github.com/Be-Secure/besecure-ce-env-repo) repository.
+
+#### Adding a new playbook to Be-Secure playbook store repo.
+1. Fork the [Be-Secure playbook repo](https://github.com/Be-Secure/besecure-playbooks-store) to the developers own namepsace.
+
+2. Git clone the developers own forked repo's develop branch to their local system.
+
+3. Follow the Steps mentioned in [Playbook's Developer Guide](https://github.com/Be-Secure/besecure-playbooks-store/blob/master/developer-guide.md)
+
+4. Once changes are done and tested in local repository, push changes into your own repo at github.
+
+5. Raise a PR to get the changes merged to *develop* branch of [Be-Secure environments](https://github.com/Be-Secure/besecure-ce-env-repo) repository.
+
+
+
 ### Processes expected to follow by each contributors:
 
 - [Process for pull request](./raise_pull_request.md)
 
 - [Process for issues](./raise_issue.md)
 
-
-
 ### Use a Consistent Coding Style
 You must follow the coding standard described in the [Be-Secure review Checklist](./checklist.md).
 
-
 ### Developers View
-                                                                                              
-
+                                                                                             
 Please refer to the following [link](https://github.com/Be-Secure/BeSman) to know more about BeSman. It is built using bash and can be easily customized to provision new environments for an [open source tech stack](./tech_stack.md) based on open source project requirements. Anyone can leverage BeSman utility to build customized environments for their projects.
 &nbsp;
 
